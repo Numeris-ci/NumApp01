@@ -5,4 +5,21 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="AppThemeGreen" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:windowBackground">@color/GreenWindowBackground</item>
+    </style>
+
+    <style name="MyActionBar"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/GreenColorPrimary</item>
+    </style>
+
+    <color name="GreenColorPrimary">#4CAF50</color>
+    <color name="GreenTextColorPrimary">#000000</color>
+    <color name="GreenColorPrimaryDark">#1B5E20</color>
+    <color name="GreenWindowBackground">#C8E6C9</color>
+    <color name="GreenNavigationBarColor">#388E3C</color>
+    <color name="GreenColorAccent">#00ff00</color>
+
 </resources>
